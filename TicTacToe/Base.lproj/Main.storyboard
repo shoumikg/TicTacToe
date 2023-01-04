@@ -22,7 +22,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="W8R-NJ-6ts">
                                         <rect key="frame" x="0.0" y="0.0" width="293" height="66"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mug-st-bIa">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mug-st-bIa">
                                                 <rect key="frame" x="0.0" y="0.0" width="97" height="66"/>
                                                 <color key="backgroundColor" red="0.86274509799999999" green="0.1960784314" blue="0.14117647059999999" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
@@ -31,7 +31,7 @@
                                                     <action selector="cellClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="af1-Sy-Syg"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jRn-k7-Ot2">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jRn-k7-Ot2">
                                                 <rect key="frame" x="98" y="0.0" width="97" height="66"/>
                                                 <color key="backgroundColor" red="0.86274509799999999" green="0.1960784314" blue="0.14117647059999999" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
@@ -40,7 +40,7 @@
                                                     <action selector="cellClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PYY-Bf-Ok4"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MET-C8-Wso">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MET-C8-Wso">
                                                 <rect key="frame" x="196" y="0.0" width="97" height="66"/>
                                                 <color key="backgroundColor" red="0.86274509799999999" green="0.1960784314" blue="0.14117647059999999" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
@@ -54,7 +54,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="LPf-5O-uqz">
                                         <rect key="frame" x="0.0" y="67" width="293" height="66"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNy-qq-L6A">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNy-qq-L6A">
                                                 <rect key="frame" x="0.0" y="0.0" width="97" height="66"/>
                                                 <color key="backgroundColor" red="0.86274509799999999" green="0.1960784314" blue="0.14117647059999999" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
@@ -63,7 +63,7 @@
                                                     <action selector="cellClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XvD-2l-D8a"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r4b-ad-WvM">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r4b-ad-WvM">
                                                 <rect key="frame" x="98" y="0.0" width="97" height="66"/>
                                                 <color key="backgroundColor" red="0.86274509799999999" green="0.1960784314" blue="0.14117647059999999" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
@@ -72,7 +72,7 @@
                                                     <action selector="cellClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d8y-Xl-SiJ"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FCc-lU-Qmm">
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FCc-lU-Qmm">
                                                 <rect key="frame" x="196" y="0.0" width="97" height="66"/>
                                                 <color key="backgroundColor" red="0.86274509799999999" green="0.1960784314" blue="0.14117647059999999" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
@@ -86,7 +86,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="MKt-OY-miK">
                                         <rect key="frame" x="0.0" y="134" width="293" height="66"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bSW-S9-21U">
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bSW-S9-21U">
                                                 <rect key="frame" x="0.0" y="0.0" width="97" height="66"/>
                                                 <color key="backgroundColor" red="0.86274509799999999" green="0.1960784314" blue="0.14117647059999999" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
@@ -95,7 +95,7 @@
                                                     <action selector="cellClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AHV-cX-xFg"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IV8-6g-gCW">
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IV8-6g-gCW">
                                                 <rect key="frame" x="98" y="0.0" width="97" height="66"/>
                                                 <color key="backgroundColor" red="0.86274509799999999" green="0.1960784314" blue="0.14117647059999999" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
@@ -104,7 +104,7 @@
                                                     <action selector="cellClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6tu-bE-EKQ"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4qe-bg-DP7">
+                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4qe-bg-DP7">
                                                 <rect key="frame" x="196" y="0.0" width="97" height="66"/>
                                                 <color key="backgroundColor" red="0.86274509799999999" green="0.1960784314" blue="0.14117647059999999" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
@@ -120,13 +120,31 @@
                                     <constraint firstAttribute="height" constant="200" id="pNv-7V-n5k"/>
                                 </constraints>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vnn-CL-6MC">
+                                <rect key="frame" x="0.0" y="79" width="393" height="20.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jNW-oY-CLk">
+                                <rect key="frame" x="0.0" y="163.66666666666666" width="393" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4JJ-PZ-otj" secondAttribute="trailing" constant="50" id="CE1-n9-llu"/>
                             <constraint firstItem="4JJ-PZ-otj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="GXR-Vy-H7v"/>
+                            <constraint firstItem="vnn-CL-6MC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="IxA-vN-JUV"/>
+                            <constraint firstItem="vnn-CL-6MC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="LZm-iW-o3Y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vnn-CL-6MC" secondAttribute="trailing" id="P0i-vM-yk5"/>
                             <constraint firstItem="4JJ-PZ-otj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="Pnj-7e-Qaf"/>
+                            <constraint firstItem="4JJ-PZ-otj" firstAttribute="top" secondItem="jNW-oY-CLk" secondAttribute="bottom" constant="75" id="TCi-Hj-kxe"/>
+                            <constraint firstItem="jNW-oY-CLk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mgh-7T-zRr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jNW-oY-CLk" secondAttribute="trailing" id="urI-cC-Xoe"/>
                         </constraints>
                     </view>
                     <connections>
@@ -139,6 +157,8 @@
                         <outlet property="cell20" destination="bSW-S9-21U" id="c4j-Ic-6K9"/>
                         <outlet property="cell21" destination="IV8-6g-gCW" id="O33-4q-1yy"/>
                         <outlet property="cell22" destination="4qe-bg-DP7" id="PaG-oz-VIZ"/>
+                        <outlet property="playerLabel" destination="jNW-oY-CLk" id="afF-gY-ESI"/>
+                        <outlet property="titleLabel" destination="vnn-CL-6MC" id="cO9-V9-jET"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
