@@ -81,9 +81,7 @@ class ViewController: UIViewController {
   }
   
   @IBAction func cellClicked(_ sender: UIButton) {
-    if model.resultOfTheGame == nil {
-      
-    }
+    guard model.resultOfTheGame == nil else { return }
     if sender.title(for: .normal) == nil || sender.title(for: .normal) == "" {
       sender.setTitle(playerOneTurn ? "X" : "O", for: .normal)
       model.occupyCell(isPLayerOne: playerOneTurn, cellTag: sender.tag)
@@ -94,11 +92,9 @@ class ViewController: UIViewController {
     }
     if let result =  model.resultOfTheGame {
       switch result {
-      case 0 : playerLabel.text = "Game Over!"
       case 1: playerLabel.text = "Player 1 won!"
       case 2: playerLabel.text = "Player 2 won!"
-      default:
-        break
+      default: playerLabel.text = "Game Over!"
       }
       playerLabel.textColor = .red
       playerLabel.font = .systemFont(ofSize: 40)

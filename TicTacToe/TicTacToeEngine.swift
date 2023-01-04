@@ -35,7 +35,7 @@ struct TicTacToeEngine {
         if winningCombinationFound == nil {
           resultOfTheGame = 1
           playerScores[0] += 1
-          break
+          return
         }
         winningCombinationFound = nil
       }
@@ -51,7 +51,7 @@ struct TicTacToeEngine {
         if winningCombinationFound == nil {
           resultOfTheGame = 2
           playerScores[1] += 1
-          break
+          return
         }
         winningCombinationFound = nil
       }
