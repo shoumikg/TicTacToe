@@ -3,7 +3,7 @@ A simple TicTacToe iOS app
 
 Current progress:
 
-![](current.gif)
+<img src="current.gif" height="600" />
 
 Next steps:
-- With the current simple design, make the game functionally complete for two players.
+- Add single player functionality. The game engine should always try to win, or draw.
